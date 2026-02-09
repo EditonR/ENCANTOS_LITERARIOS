@@ -57,3 +57,8 @@ a {
 body {
   background-color: var(--shape-background);
 }
+
+html, button {
+  font-family: var(--ff-body);
+  color: white;
+}
