@@ -23,6 +23,9 @@
 
       & img {
         filter: drop-shadow(0rem 0.0625rem 0.375rem rgb(149, 71, 165, 0.6));
+        & img, p {
+          position: absolute;
+        }
       }
     }
   }
@@ -40,6 +43,7 @@
   & img:nth-child(1) {
     z-index: 3;
     top: 0;
+    opacity: 7;
     left: 30%;
     width: 40%;
   }
@@ -63,9 +67,56 @@
   & img:nth-child(4) {
     z-index: 1;
     transition: transform 1.5s ease, rotate 1.5s ease;
-    top: 25rem;
+    top: 20.62rem;
     left: 32%;
     width: 20%;
+  }
+
+  & img:nth-child(5) {
+    z-index: 1;
+    transition: transform 1.5s ease, scale 1.5s ease;
+    transform: scale(0.5);
+    top: 3.12rem;
+    left: 35%;
+  }
+
+  & img:nth-child(6) {
+    z-index: 1;
+    transition: transform 1.5s ease, scale 1.25s ease;
+    transform: scale(0.5);
+    top: 28.12rem; 
+    left: 60%;
+  }
+
+  & img:nth-child(7) {
+    z-index: 1;
+    transition: transform 1.5s ease, scale 1.5s ease;
+    transform: scale(0.5);
+    top: 21.87rem;
+    left: 32%;
+  }
+
+  & p:nth-child(8) {
+    z-index: 1;
+    transition: transform 1.5s ease, scale 1.5s ease;
+    transform: scale(0.5);
+    top: 1.56rem;
+    left: 35%;
+  }
+
+  & p:nth-child(9) {
+    z-index: 1;
+    transition: transform 1.5s ease, scale 1.5s ease;
+    transform: scale(0.5);
+    top: 28.12rem;
+    left: 55%;
+  }
+
+  & p:nth-child(10) {
+    z-index: 1;
+    transition: transform 1.5s ease, scale 1.5s ease;
+    transform: scale(0.5);
+    top: 21.87rem;
   }
 }
 
@@ -81,4 +132,30 @@
   & img:nth-child(4) {
     transform: translate(-10.31rem) rotate(-15deg);
   }
+
+  & img:nth-child(5) {
+    transform: translate(-14.06rem, 5rem) scale(1);
+  }
+
+  & p:nth-child(8) {
+    transform: translate(-18.75rem, -5.93rem);
+  }
+
+  & img:nth-child(6) {
+    transform: translate(9.37rem, 12.5rem) scale(1);
+  }
+
+  & p:nth-child(9) {
+    transform: translate(8.43rem, 22.81rem) scale(1);
+  }
+
+  & img:nth-child(7) {
+    transform: translate(-12.5rem, -9.37rem) scale(1);
+  }
+
+  & p:nth-child(10) {
+    transform: translate(-15.62rem, -11.56rem) scale(1);
+  }
+
+
 }

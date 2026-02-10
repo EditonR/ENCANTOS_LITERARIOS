@@ -55,7 +55,7 @@ a {
 }
 
 body {
-  background-color: var(--shape-background);
+  background: var(--shape-background);
 }
 
 html, button {
