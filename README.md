@@ -36,7 +36,7 @@ Bibliotecas
 
 Neste desafio, você vai desenvolver uma Landing Page de um clube de assinatura literário, chamada Encantos Literários. O objetivo é criar uma página atrativa que apresente os benefícios do clube, mostre um exemplo de livro surpresa que o assinante recebe e destaque os planos de assinatura. Além da estrutura em HTML, a proposta é trabalhar animações em CSS para dar mais vida à página como transições suaves, efeitos de destaque em elementos e interações que deixem a experiência mais envolvente.
 
-- [Acesse o projeto finalizado, online](https://editonr.github.io/ENCANTOS_LITERARIOS/)
+- [Acesse o projeto finalizado, online](https://editonr.github.io/EncantosLiterarios/)
 
 ## 🔖 Layout
 
